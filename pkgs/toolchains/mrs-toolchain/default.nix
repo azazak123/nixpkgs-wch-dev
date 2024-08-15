@@ -2,8 +2,8 @@
 , stdenv
 , fetchurl
 , runtimeShell
-, rev ? "1.91"
-, hash ? "sha256-FipXpGbjIs6rFi7eqg9L5SH54+hQKmK7zcqPr8ihml0="
+, rev ? "1.92"
+, hash ? "sha256-M+DddYGi7qJbxdGqLDH1yLMW5UO5VNhPnh/8WZnpP+o="
 }:
 
 stdenv.mkDerivation rec {
