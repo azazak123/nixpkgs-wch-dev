@@ -1,0 +1,10 @@
+CompileFlags:
+  Add: -Wall       
+  Remove: [-mabi=*, -G, -mno-save-restore, -march=*]
+  Compiler: "riscv-none-elf-gcc"
+
+Diagnostics:
+  Suppress: "conflicting_types"
+  UnusedIncludes: Strict
+  Includes:
+    IgnoreHeader: "CH58x_flash.h"
