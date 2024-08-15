@@ -2,8 +2,8 @@
 , stdenv
 , fetchurl
 , runtimeShell
-, rev ? "13.2.0-2"
-, hash ? "sha256-UlRa+5ACAPv2X+BffOcJC4pCxkCR9PXUPK5rto6iQ0o="
+, rev ? "14.2.0-1"
+, hash ? "sha256-petwdZXhQk/0EnzIshuLjLB25vAHC2cEhecrn3SAYgA="
 }:
 
 stdenv.mkDerivation rec {
@@ -31,6 +31,4 @@ stdenv.mkDerivation rec {
       patchelf --set-interpreter $(cat ${stdenv.cc}/nix-support/dynamic-linker) "$f" || true
     done
   '';
-
-  meta = { };
 }

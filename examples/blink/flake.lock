@@ -57,10 +57,10 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "dirtyRev": "5d91cc77e1b28676ced51a321631af721623c1fb-dirty",
-        "dirtyShortRev": "5d91cc7-dirty",
-        "lastModified": 1723736730,
-        "narHash": "sha256-5BkWdFos+0fyNwvN5FtlALRyBoJfDE7kZHQ0lhK6pno=",
+        "dirtyRev": "31610b685d7caa4db0c795fecbbec09202e79934-dirty",
+        "dirtyShortRev": "31610b6-dirty",
+        "lastModified": 1723750987,
+        "narHash": "sha256-+3IISOgcxjI/GQLbf4hFqEvoO17EEhl48msP0RzQHHI=",
         "type": "git",
         "url": "file:../../."
       },
